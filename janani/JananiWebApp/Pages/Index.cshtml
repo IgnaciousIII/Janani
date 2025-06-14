@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Janani";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center-heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+        }
+        .purple-text {
+            color: purple;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .upload-section {
+            text-align: center;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-heading">
+        <span class="purple-text">Janani</span>
+    </div>
+    <div class="upload-section">
+        <p>Upload your excel file for conversion</p>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="excelFile" accept=".xlsx,.xls" required />
+            <br/><br/>
+            <button type="submit">Upload & Convert</button>
+        </form>
+        @if (ViewData["Message"] != null)
+        {
+            <p>@ViewData["Message"]</p>
+        }
+    </div>
+</body>
+</html>

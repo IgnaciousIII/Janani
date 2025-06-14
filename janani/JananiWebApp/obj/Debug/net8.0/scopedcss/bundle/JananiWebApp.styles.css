@@ -1,0 +1,49 @@
+/* _content/JananiWebApp/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zgyx0xdvkr] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zgyx0xdvkr] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zgyx0xdvkr] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zgyx0xdvkr], .nav-pills .show > .nav-link[b-zgyx0xdvkr] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zgyx0xdvkr] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zgyx0xdvkr] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zgyx0xdvkr] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zgyx0xdvkr] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zgyx0xdvkr] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
